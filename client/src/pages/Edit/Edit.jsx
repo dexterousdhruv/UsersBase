@@ -134,7 +134,7 @@ const Edit = () => {
               />
             </Center>
           ) : (
-            <Container maxWidth={"5xl"}>
+            <Container maxWidth={"5xl"} mb={6}>
               <Center mb="25px">
                 <Avatar
                   src={ img ? preview : `${BASE_URL}/uploads/${profile}` }

@@ -101,7 +101,7 @@ const Register = () => {
   }, [img]);
 
   return (
-    <Box mt={6}>
+    <Box mt={6} >
       <Heading
         as="h2"
         fontSize={["lg", "2xl", "3xl"]}
@@ -112,7 +112,7 @@ const Register = () => {
         Register Your Details
       </Heading>
 
-      <Container maxWidth={"5xl"}>
+      <Container maxWidth={"5xl"} mb={6}>
         <Center mb="25px">
           <Avatar
             src={preview ? preview : "/user-avatar.png"}
